@@ -68,12 +68,12 @@ const _SignUp = props => {
           </div>
 
           <div className="form-forgot">
-            <a href="#" className="link link_forgot">Forgot your password?</a>
+            <a href="/landing/:market" className="link link_forgot">Forgot your password?</a>
           </div>
           <div className="form-info">
             Search Signin Up, you agree to the
-            <a href="#" className="link link_underline">User Agreement</a> and
-            <a href="#" className="link link_underline">Privacy Policy</a>
+            <a href="/landing/:market" className="link link_underline">User Agreement</a> and
+            <a href="/landing/:market" className="link link_underline">Privacy Policy</a>
           </div>
           <div className="form-group form_buttons">
             <GoogleLogin

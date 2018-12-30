@@ -8,7 +8,7 @@ export class VerifyEmail extends Component {
         <div className="auth">
           <div className="auth-notify">
             Thanks for creating an account!
-            <a href="#" className="auth-notify__close">
+            <a href="/landing/:market" className="auth-notify__close">
               <IconClose/>
             </a>
           </div>
@@ -21,7 +21,7 @@ export class VerifyEmail extends Component {
             <div className="inform-divider"></div>
             <div className="inform-helper">
               <div className="inform-helper__links">
-                <a href="#" className="link">Email didn’t arrive or want to use a different email?</a>
+                <a href="/landing/:market" className="link">Email didn’t arrive or want to use a different email?</a>
               </div>
             </div>
           </div>

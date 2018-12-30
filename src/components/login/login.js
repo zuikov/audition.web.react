@@ -73,7 +73,7 @@ const _Login = props => {
             </div>
 
             <div className="form-forgot">
-              <a href="#" className="link link_forgot">Forgot your password?</a>
+              <a href="/landing/:market" className="link link_forgot">Forgot your password?</a>
             </div>
             <div className="form-group form_buttons">
               <GoogleLogin

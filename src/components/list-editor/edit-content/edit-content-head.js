@@ -6,7 +6,7 @@ export const EditContentHead = () => {
     <Fragment>
       <div className="table-box__head">
         <div className="table-box__title">Edit content</div>
-        <a href="#" className="link_export">Export complete playlist item <IconXls/></a>
+        <a href="/landing/:market" className="link_export">Export complete playlist item <IconXls/></a>
       </div>
     </Fragment>
   );

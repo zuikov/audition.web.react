@@ -37,7 +37,7 @@ class _StatisticsHistory extends Component {
           <div className="statistic-history">
             <div className="statistic-history__head">
               <div className="statistic-history__title">History</div>
-              <a href="#" className="link link_view">View All</a>
+              <a href="/landing/:market" className="link link_view">View All</a>
             </div>
             <div className="statistic-history__body">
               <ReactTable

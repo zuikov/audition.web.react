@@ -35,7 +35,7 @@ class _PlayList extends Component {
                       <td className="data_2">{item.sectionName}</td>
                       <td className="data_3">{item.title}</td>
                       <td className="data_4">{item.description}</td>
-                      <td className="data_3"><iframe width="320" src={item.link} frameBorder="0" allow="autoplay; encrypted-media"></iframe></td>
+                      <td className="data_3"><iframe width="320" src={item.link} title={item.title} frameBorder="0" allow="autoplay; encrypted-media"></iframe></td>
                     </tr>
                   );
                 })
