@@ -28,7 +28,7 @@ export class _HttpFetch {
     if (refreshToken) {
       fetch(apiEndpoints.updateToken, {
         method: 'POST',
-        // mode: 'no-cors',
+        mode: 'cors',
         headers: {
           'Access-Control-Allow-Origin': '*',
           'Accept': 'application/json, text/plain, */*',
@@ -63,7 +63,7 @@ export class _HttpFetch {
     }
     return fetch(path, {
       method: 'POST',
-      // mode: 'no-cors',
+      mode: 'cors',
       body: JSON.stringify(body),
       headers: {
         'Access-Control-Allow-Origin': '*',
@@ -90,7 +90,7 @@ export class _HttpFetch {
     }
     return fetch(path, {
       method: 'PATCH',
-      // mode: 'no-cors',
+      mode: 'cors',
       body: JSON.stringify(body),
       headers: {
         'Access-Control-Allow-Origin': '*',
@@ -117,7 +117,7 @@ export class _HttpFetch {
     }
     return fetch(path, {
       method: 'DELETE',
-      // mode: 'no-cors',
+      mode: 'cors',
       headers: {
         'Access-Control-Allow-Origin': '*',
         'Accept': 'application/json, text/plain, */*',
@@ -148,7 +148,7 @@ export class _HttpFetch {
     }
 
     return fetch(path, {
-      // mode: 'no-cors',
+      mode: 'cors',
       headers: {
         'Access-Control-Allow-Origin': '*',
         'Accept': 'application/json, text/plain, */*',
