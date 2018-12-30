@@ -1,0 +1,65 @@
+@import '../../../media/variables';
+
+.auditions-history {
+  &-table {
+    .rt-thead {
+      .rt-tr {
+        height: 40px;
+        align-items: flex-start;
+        .rt-th {
+          vertical-align: top;
+        }
+      }
+    }
+    .-filters {
+      display: none;
+    }
+    .rt-tr {
+      .rt-th, .rt-td {
+        &:nth-child(1) {
+          width: 12.55% !important;
+          padding-left: 10px;
+        }
+        &:nth-child(2) {
+          width: 9% !important;
+        }
+        &:nth-child(3) {
+          width: 6.15% !important;
+          text-align: center;
+        }
+        &:nth-child(4) {
+          width: 4.50% !important;
+          text-align: center;
+        }
+        &:nth-child(5) {
+          width: 9.11% !important;
+          text-align: right;
+        }
+        &:nth-child(6) {
+          width: 9.8% !important;
+          text-align: right;
+        }
+        &:nth-child(7) {
+          width: 7.05% !important;
+          text-align: right;
+        }
+        &:nth-child(8) {
+          width: 9.60% !important;
+          text-align: right;
+        }
+        &:nth-child(9) {
+          width: 15.58% !important;
+          text-align: right;
+        }
+        &:nth-child(10) {
+          width: 16.66% !important;
+          padding-right: 10px;
+          text-align: right;
+        }
+      }
+    }
+  }
+  .canceled-order {
+    color: #dbdee0;
+  }
+}

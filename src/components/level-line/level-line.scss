@@ -1,0 +1,45 @@
+@import '../../media/variables';
+
+.curline {
+  height: 30px;
+  padding: 0 16px;
+  border-bottom: 1px solid $color-gray1;
+  background-color: $color-blue;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  &-item {
+    font-family: $font-ssp;
+    margin-right: 30px;
+    font-size: 0.875em;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    &:last-child {
+      margin-right: 0;
+    }
+    &__name {
+      margin-right: 6px;
+      color: $color-dark-blue;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      &:before {
+        content: '';
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        margin-right: 6px;
+        border-radius: 50%;
+        background-color: $color-green;
+      }
+    }
+    &__rate {
+      margin-right: 6px;
+      color: $color-green;
+    }
+    &__position {
+      color: $color-text2;
+    }
+  }
+}

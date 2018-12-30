@@ -1,0 +1,107 @@
+@import '../../../media/variables';
+
+.activity-info {
+  &__table {
+    width: 100%;
+    .rt-tr {
+      display: flex;
+      align-items: center;
+    }
+    .rt-th {
+      flex: 0 0 auto !important;
+      width: 33.33% !important;
+      min-height: 30px;
+      font-family: $font-ssp;
+      font-weight: 400;
+      font-size: 0.75em;
+      color: $color-gray9;
+      line-height: 19px;
+      outline: none;
+      border-right: 1px solid $color-gray7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:last-child {
+        border-right: none;
+      }
+    }
+    .rt-td {
+      flex: 0 0 auto !important;
+      width: 33.33% !important;
+      min-height: 25px;
+      font-family: $font-ssp;
+      font-weight: 400;
+      font-size: 0.875em;
+      line-height: 24px;
+      color: $color-dark-blue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .rt-thead {
+      min-width: 100% !important;
+    }
+    .rt-tbody {
+      min-width: 100% !important;
+      .rt-tr {
+        .rt-td {
+          border-right: 1px solid $color-gray7;
+          border-top: 1px solid $color-gray7;
+          &:last-child {
+            border-right: none;
+          }
+          &:nth-child(3) {
+            color: $color-pink;
+          }
+          &:nth-child(1) {
+            color: $color-green;
+          }
+        }
+      }
+    }
+  }
+  &__auditions-table {
+    width: 100%;
+    .rt-tr {
+      display: flex;
+      align-items: center;
+    }
+    .rt-th {
+      flex: 0 0 auto !important;
+      width: 33.33% !important;
+      min-height: 30px;
+      font-family: $font-ubuntu;
+      font-weight: 300;
+      font-size: 0.8125em;
+      color: $color-gray9;
+      line-height: 19px;
+      outline: none;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      &:last-child {
+        border-right: none;
+      }
+    }
+    .rt-td {
+      flex: 0 0 auto !important;
+      width: 33.33% !important;
+      min-height: 25px;
+      font-family: $font-ssp;
+      font-weight: 400;
+      font-size: 0.875em;
+      line-height: 24px;
+      color: $color-dark-blue;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .rt-thead {
+      min-width: 100% !important;
+      margin-bottom: 10px;
+    }
+    .rt-tbody {
+      min-width: 100% !important;
+    }
+  }
+}

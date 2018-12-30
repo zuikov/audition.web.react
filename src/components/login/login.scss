@@ -1,0 +1,15 @@
+@import '../../media/variables';
+
+.login {
+  width: 100%;
+  max-width: 350px;
+
+  .form-checkbox_box {
+    width: 100%;
+  }
+
+  .input-feedback {
+    color: red;
+    margin-top: .25rem;
+  }
+}

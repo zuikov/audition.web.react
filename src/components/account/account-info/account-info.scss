@@ -1,0 +1,128 @@
+@import '../../../media/variables';
+
+.profile {
+  margin-bottom: 60px;
+  padding: 26px 33px 33px;
+  border-radius: 3px;
+  background-color: $color-white;
+  box-shadow: 0 12px 20px 0 rgba(186, 189, 195, 0.16);
+  &-head {
+    margin-bottom: 25px;
+    padding: 0 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    &__left {
+      margin-right: auto;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    &__right {
+      padding-top: 10px;
+      margin-left: auto;
+    }
+    &__photo {
+      margin-right: 30px;
+      min-width: 72px;
+      min-height: 72px;
+      border: 1px solid $color-gray2;
+      border-radius: 50%;
+      background-color: $color-blue2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__initials {
+      font-size: 1.5em;
+      line-height: 24px;
+      color: $color-white;
+      text-transform: uppercase;
+    }
+    &__auth-box {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    &__name {
+      font-family: $font-ssp;
+      font-weight: 400;
+      font-size: 1.3125em;
+      line-height: 24px;
+      color: $color-text;
+    }
+    &__auth-status {
+      margin-left: 20px;
+      font-family: $font-ubuntu;
+      font-size: 0.625em;
+      font-weight: 500;
+      line-height: 1em;
+      color: $color-white;
+      text-transform: uppercase;
+      padding: 6px 10px;
+      border-radius: 1px;
+      background-color: $color-blue2;
+    }
+    &__activities {
+      margin-top: 5px;
+      font-family: $font-ssp;
+      font-weight: 400;
+      font-size: 0.8125em;
+      line-height: 24px;
+      color: $color-gray4;
+    }
+  }
+  &-section {
+    margin-bottom: 13px;
+    padding: 24px 30px;
+    border: 1px solid $color-gray2;
+    border-radius: 3px;
+    background-color: $color-white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &__left {
+      width: 100%;
+      margin-right: auto;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    &__right {
+      margin-left: auto;
+      min-width: 130px;
+      max-width: 130px;
+    }
+    &__icon {
+      min-width: 60px;
+      max-width: 60px;
+      min-height: 60px;
+      max-height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__info {
+      max-width: 70%;
+      padding-left: 40px;
+      //padding-right: 40px;
+    }
+    &__name {
+      font-family: $font-ssp;
+      font-weight: 600;
+      font-size: 1.3125em;
+      line-height: 24px;
+      color: $color-text;
+    }
+    &__descr {
+      margin-top: 5px;
+      font-family: $font-ssp;
+      font-weight: 400;
+      line-height: 24px;
+      color: $color-gray6;
+    }
+  }
+}

@@ -3,14 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@amcharts/amcharts3-react": "^3.0.0",
+    "@material-ui/core": "^1.2.2",
+    "@material-ui/icons": "^1.1.0",
+    "amcharts3": "^3.21.13",
+    "amstock3": "amcharts/amstock3",
+    "jwt-decode": "^2.2.0",
+    "pusher-js": "^4.2.2",
+    "qrcode.react": "^0.8.0",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-datepicker": "^1.5.0",
+    "react-dropdown": "^1.5.0",
+    "react-google-login": "^3.2.1",
+    "react-redux": "^5.0.7",
+    "react-table": "^6.8.6",
+    "react-tabs": "^2.2.2",
+    "react-toastify": "^4.1.0",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-thunk": "^2.3.0",
     "formik": "^1.4.1",
     "moment": "^2.23.0",
+    "node-sass": "^4.11.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-moment": "^0.8.4",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.2",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "yup": "^0.26.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,5 +46,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "redux-persist": "^5.10.0"
+  }
 }

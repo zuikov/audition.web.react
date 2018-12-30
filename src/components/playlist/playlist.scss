@@ -1,0 +1,56 @@
+@import '../../media/variables.scss';
+
+.playlist {
+  &__title {
+    font-weight: 500;
+    font-size: 1.875em;
+    line-height: 24px;
+    color: $color-text;
+  }
+  &__box {
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 3px;
+    background-color: $color-white;
+    box-shadow: 0 12px 20px 0 rgba(186, 189, 195, 0.16);
+  }
+  &__table {
+    width: 100%;
+    .data_1 {
+      width: 10%;
+    }
+    .data_2 {
+      width: 15%;
+    }
+    .data_3 {
+      width: 15%;
+    }
+    .data_4 {
+      width: 45%;
+    }
+    th {
+      padding-left: 11px;
+      font-family: $font-ssp;
+      font-weight: 400;
+      font-size: 0.875em;
+      text-align: left;
+      color: $color-gray6;
+      vertical-align: middle;
+    }
+    td {
+      padding-left: 11px;
+      font-family: $font-ssp;
+      font-weight: 400;
+      font-size: 0.9375em;
+      color: $color-text;
+      vertical-align: middle;
+    }
+    tr {
+      height: 35px;
+      border-bottom: 1px solid transparentize($color-gray2, 0.7);
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+  }
+}

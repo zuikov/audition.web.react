@@ -1,0 +1,17 @@
+@import '../../../media/variables';
+
+.account-head {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  &__title {
+    font-weight: 500;
+    font-size: 1.875em;
+    line-height: 24px;
+    color: $color-text;
+  }
+  &__button-box {
+    margin-left: auto;
+  }
+}

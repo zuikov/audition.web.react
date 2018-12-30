@@ -1,0 +1,47 @@
+@import '../../../media/variables';
+
+.activity-history {
+  &-table {
+    .rt-thead {
+      .rt-tr {
+        height: 22px;
+        align-items: flex-start;
+        .rt-th {
+          vertical-align: top;
+        }
+      }
+    }
+    .rt-tr {
+      .rt-th, .rt-td {
+        &:nth-child(1) {
+          width: 15.50% !important;
+          padding-left: 10px;
+        }
+        &:nth-child(2) {
+          width: 12.25% !important;
+        }
+        &:nth-child(3) {
+          width: 4.90% !important;
+          text-align: center;
+        }
+        &:nth-child(4) {
+          width: 15.70% !important;
+          text-align: right;
+        }
+        &:nth-child(5) {
+          width: 13.43% !important;
+          text-align: right;
+        }
+        &:nth-child(6) {
+          width: 18.62% !important;
+          text-align: right;
+        }
+        &:nth-child(7) {
+          width: 19.60% !important;
+          text-align: right;
+          padding-right: 14px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+@import '../../../media/variables';
+
+.statistic {
+  &-stat {
+    margin: 20px 0;
+    padding: 0 50px 0 40px;
+    &__row {
+      line-height: 24px;
+      font-family: $font-ssp;
+      font-size: 0.875em;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &__name {
+      color: $color-gray4;
+    }
+    &__value {
+      color: $color-text;
+    }
+  }
+  &-history {
+    &__head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &__title {
+      font-family: $font-ssp;
+      font-size: 1.375em;
+      line-height: 24px;
+      color: $color-text;
+    }
+    &__body {
+      margin-top: 40px;
+    }
+    &__table {
+      .rt-thead {
+        .rt-tr {
+          height: 40px;
+          align-items: flex-start;
+        }
+      }
+      .rt-tr {
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        .rt-th, .rt-td {
+          &:nth-child(1) {
+            width: 17.67% !important;
+            padding-left: 12px;
+            font-weight: 600;
+          }
+          &:nth-child(2) {
+            width: 22% !important;
+          }
+          &:nth-child(3) {
+            width: 33.83% !important;
+          }
+          &:nth-child(4) {
+            width: 26.50% !important;
+          }
+        }
+      }
+    }
+  }
+  &-dropdown {
+    position: relative;
+    .Dropdown-control {
+      height: 35px;
+      width: 100%;
+      padding-left: 10px;
+      cursor: pointer;
+      border-bottom: 2px solid $color-blue2;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      .Dropdown-arrow {
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        border-top: 5px solid $color-dark-blue;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        transform: translateY(-50%);
+      }
+    }
+    .Dropdown-menu {
+      position: absolute;
+      top: calc(100% - 3px);
+      left: 0;
+      width: 100%;
+      height: auto;
+      padding: 10px 15px;
+      background-color: $color-white;
+      box-shadow: 0 6px 12px 0 rgba(146, 161, 167, 0.4);
+      .Dropdown-option {
+        margin-bottom: 5px;
+        line-height: 24px;
+        font-family: $font-ssp;
+        font-size: 1em;
+        color: $color-text;
+        cursor: pointer;
+      }
+      .Dropdown-option:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
