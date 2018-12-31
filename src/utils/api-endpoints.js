@@ -1,6 +1,6 @@
 // const baseURL = '';
-// const testURL = 'http://localhost:7066/api';
-const testURL = 'https://audition-api.herokuapp.com/api';
+const testURL = 'http://localhost:7066/api';
+// const testURL = 'https://audition-api.herokuapp.com/api';
 
 export const apiEndpoints = {
   login: `${testURL}/user/login`,
