@@ -2,7 +2,7 @@
 
 This project was created to test some program features and to learn English by audition the same time.
 This React audition app interact with audition.api wich fetch mLab Mongo database.
-All of this work with one free Heroku dyno, so speed coul be better, but it's enough for testing.
+All of this and a bunch of others apps work with one free Heroku dyno, so app will start not from first attempt.
 
 ## Credentials to test base functioality
 
